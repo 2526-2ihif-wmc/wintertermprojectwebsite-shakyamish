@@ -5,6 +5,13 @@ body {
 .navbar {  
     background-color:rgb(245, 178, 183);
     position: sticky;
+
+}
+
+.sidebar {
+    float:left;
+    width: 200px;       
+    height: 100vh;      
 }
 
 .start {
@@ -17,6 +24,15 @@ body {
     width: 20%;
     height: auto;
     display: block;
+}
+
+.Abyssinian-img {
+    display: block;
+    margin-left: 220px;   
+    margin-top: 40px;
+    width: 20%;
+    height: auto;
+    border-radius: 10px;
 }
 
 .p {
@@ -50,4 +66,17 @@ ul {
 
 ul li {
     list-style: none;
+}
+
+.cat-text {
+    flex: 1;      /* allows text to fill remaining space */
+    font-size: 1.1rem;
+    line-height: 1.4;
+}
+.cat-section {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 100px; /* was 200px */
+    padding: 20px 20px 20px 0;
+    gap: 20px;
 }
