@@ -16,6 +16,11 @@ body {
     height: 100vh;      
 }
 
+.sidebar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
 .start {
     display: flex;    
     align-items: flex-start; 
@@ -39,7 +44,7 @@ body {
 }
 
 .filter a {
-    color: pink;
+    color: rgb(224, 109, 128);
     margin-right: 13px;
     padding-left: 0;
 }
