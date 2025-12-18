@@ -5,6 +5,8 @@ body {
 .navbar {  
     background-color:rgb(245, 178, 183);
     position: sticky;
+    top: 0;
+    z-index: 1000;
 
 }
 
@@ -26,15 +28,6 @@ body {
     display: block;
 }
 
-.Abyssinian-img {
-    display: block;
-    margin-left: 220px;   
-    margin-top: 40px;
-    width: 20%;
-    height: auto;
-    border-radius: 10px;
-}
-
 .p {
     flex: 1;
     line-height: 1.3;
@@ -53,7 +46,7 @@ body {
 
 h2 {
     text-align: left;
-    padding-left: 40px; /* more space to move right */
+    padding-left: 40px; 
 }
 
 .filter a:hover {
@@ -69,14 +62,25 @@ ul li {
 }
 
 .cat-text {
-    flex: 1;      /* allows text to fill remaining space */
+    flex: 1;      
     font-size: 1.1rem;
     line-height: 1.4;
 }
 .cat-section {
     display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+}
+
+.cat-item {
+    display: flex;         
     align-items: flex-start;
-    margin-left: 100px; /* was 200px */
-    padding: 20px 20px 20px 0;
-    gap: 20px;
+    gap: 30px;
+}
+
+.catimages {
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
 }
