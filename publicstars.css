@@ -1,0 +1,16 @@
+html, body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    overflow-y: auto;
+}
+.navbar {  
+    background-color:rgb(245, 178, 183);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3000;
+
+}
