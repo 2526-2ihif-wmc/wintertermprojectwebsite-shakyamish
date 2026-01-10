@@ -1,9 +1,7 @@
 html, body {
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
-    height: 100%;
     padding: 0;
-    overflow-y: auto;
 }
 
 .navbar {  
@@ -14,4 +12,41 @@ html, body {
     width: 100%;
     z-index: 3000;
 
+}
+
+.heading {
+    font-family: 'Meow Script', cursive;
+    font-size: 7rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+    color: rgb(9, 1, 59);
+    line-height: 1.1;
+}
+
+p{
+    line-height: 1%;
+    padding-bottom: 10%;
+}
+
+.memes {
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    max-width:600px;
+    margin: 100px auto 0 auto;
+    padding: 0 10px;
+}
+
+.meme-pic {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    aspect-ratio: 1/1;
+}
+
+.meme-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
